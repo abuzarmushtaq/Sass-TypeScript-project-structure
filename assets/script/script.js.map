@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["script.js"],"sourcesContent":["var Animal = /** @class */ (function () {\n    function Animal(name, age) {\n        this.name = name;\n        this.age = age;\n    }\n    return Animal;\n}());\nvar cow = new Animal('Cew', 12);\nalert(\"Name: \" + cow.name + \"\\nAge: \" + cow.age);\n"],"file":"script.js","sourceRoot":"/source/"}
